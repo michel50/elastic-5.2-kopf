@@ -1,4 +1,4 @@
-FROM elasticsearch:2
+FROM elasticsearch:5.2.0
 
 COPY elasticsearch.yml /usr/share/elasticsearch/config/
 
